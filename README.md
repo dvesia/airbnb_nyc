@@ -1,2 +1,2 @@
 # airbnb_nyc
-In this repo I've created an end-to-end ML Pipeline 
+In this repo I've created a reusable end-to-end ML Pipeline 
