@@ -1,0 +1,49 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.17
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1657716124
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      4: 3.9.13
+      5: 0.12.17
+      8:
+      - 5
+input_artifact:
+  desc: null
+  value: domenico-vesia/nyc_airbnb/sample.csv:latest
+max_latitude:
+  desc: null
+  value: 41.2
+max_longitude:
+  desc: null
+  value: -73.5
+max_price:
+  desc: null
+  value: 350.0
+min_latitude:
+  desc: null
+  value: 40.5
+min_longitude:
+  desc: null
+  value: -74.25
+min_price:
+  desc: null
+  value: 10.0
+output_artifact:
+  desc: null
+  value: clean_sample.csv
+output_description:
+  desc: null
+  value: Data without outliers and null values
+output_type:
+  desc: null
+  value: clean sample

@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.15.0-41-generic-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-21T07:20:23.520314",
+    "startedAt": "2022-07-21T07:20:17.559565",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "domenico-vesia/nyc_airbnb/trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/coding/Scrivania/MLOps-Udacity/Projects/MLOps-Udacity/airbnb_nyc/multirun/2022-07-21/08-55-04/13/rf_config.json",
+        "--max_tfidf_features",
+        "30",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "airbnb_nyc/src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/dvesia/MLOps-Udacity.git",
+        "commit": "162cac6ce288b122d02a95fbc5df5b84add31426"
+    },
+    "email": "domenico.vesia@gmail.com",
+    "root": "/home/coding/Scrivania/MLOps-Udacity/Projects/MLOps-Udacity",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-f723f7244f4ca473ceb5053d661674e87c2009c8/bin/python"
+}

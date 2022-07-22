@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-13T13:16:31.947370",
+    "startedAt": "2022-07-13T13:16:30.757808",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "domenico-vesia/nyc_airbnb/sample.csv:latest",
+        "--output_artifact",
+        "clean_sample.csv",
+        "--output_type",
+        "clean sample",
+        "--output_description",
+        "Data without outliers and null values",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/coding/Scrivania/MLOps-Udacity/Projects/MLOps-Udacity/airbnb_nyc/src/basic_cleaning/run.py",
+    "codePath": "airbnb_nyc/src/basic_cleaning/run.py",
+    "git": {
+        "remote": "https://github.com/dvesia/MLOps-Udacity.git",
+        "commit": "81a4b899f07781c85c7afa89689f71218da47545"
+    },
+    "email": "domenico.vesia@gmail.com",
+    "root": "/home/coding/Scrivania/MLOps-Udacity/Projects/MLOps-Udacity",
+    "host": "pc-domenico",
+    "username": "coding",
+    "executable": "/home/coding/anaconda3/envs/mlflow-dafabfef588e1b5750722d98086d88e28bf768d5/bin/python"
+}

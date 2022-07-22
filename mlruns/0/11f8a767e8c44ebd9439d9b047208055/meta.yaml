@@ -1,0 +1,15 @@
+artifact_uri: file:///home/coding/Scrivania/MLOps-Udacity/Projects/MLOps-Udacity/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/11f8a767e8c44ebd9439d9b047208055/artifacts
+end_time: 1658307247341
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 11f8a767e8c44ebd9439d9b047208055
+run_uuid: 11f8a767e8c44ebd9439d9b047208055
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1658307027407
+status: 4
+tags: []
+user_id: coding
